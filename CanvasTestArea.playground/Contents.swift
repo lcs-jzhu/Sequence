@@ -53,24 +53,37 @@ canvas.drawEllipse(centreX: 250, centreY: 0, width: 500, height: 500)
 
 canvas.drawShapesWithFill = false
 canvas.borderColor = Color.red
-canvas.defaultBorderWidth = 30
+canvas.defaultBorderWidth = 50
 canvas.drawEllipse(centreX: 250, centreY: 0, width: 500, height: 500)
 canvas.borderColor = Color.orange
-canvas.defaultBorderWidth = 30
-canvas.drawEllipse(centreX: 250, centreY: 0, width: 470, height: 470)
+canvas.defaultBorderWidth = 50
+canvas.drawEllipse(centreX: 250, centreY: 0, width: 450, height: 450)
 canvas.borderColor = Color.yellow
-canvas.defaultBorderWidth = 30
-canvas.drawEllipse(centreX: 250, centreY: 0, width: 440, height: 440)
+canvas.defaultBorderWidth = 50
+canvas.drawEllipse(centreX: 250, centreY: 0, width: 400, height: 400)
 canvas.borderColor = Color.green
-canvas.defaultBorderWidth = 30
-canvas.drawEllipse(centreX: 250, centreY: 0, width: 410, height: 410)
+canvas.defaultBorderWidth = 50
+canvas.drawEllipse(centreX: 250, centreY: 0, width: 350, height: 350)
 canvas.borderColor = Color.blue
-canvas.defaultBorderWidth = 30
-canvas.drawEllipse(centreX: 250, centreY: 0, width: 380, height: 380)
+canvas.defaultBorderWidth = 50
+canvas.drawEllipse(centreX: 250, centreY: 0, width: 300, height: 300)
 canvas.borderColor = Color.purple
 canvas.defaultBorderWidth = 30
-canvas.drawEllipse(centreX: 250, centreY: 0, width: 350, height: 350)
+canvas.drawEllipse(centreX: 250, centreY: 0, width: 250, height: 250)
+canvas.fillColor = Color.yellow
+canvas.drawEllipse(centreX: 0, centreY: 500, width: 200, height: 200)
+canvas.fillColor = Color.yellow
 
+canvas.drawShapesWithFill = true
+canvas.borderColor = Color.yellow
+canvas.fillColor = Color.yellow
+canvas.drawEllipse(centreX: 0, centreY: 500, width: 200, height: 200)
+canvas.fillColor = Color.white
+
+canvas.drawShapesWithBorders = false
+
+canvas.drawEllipse(centreX: 500, centreY: 500, width: 200, height: 200)
+canvas.drawEllipse(centreX: 500, centreY: 450, width: 80 , height: 180)
 
 
 
